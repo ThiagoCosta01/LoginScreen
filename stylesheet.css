@@ -1,0 +1,88 @@
+*{
+
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    background-image: url("imgs/space2.jpg");
+    background-size: 480px;
+    background-repeat: repeat-x;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: url(tu_cursor_personalizado.cur), pointer;
+
+}
+
+.container{
+
+    background-color: rgba(0, 0, 0, 0.719);
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+    padding: 50px 80px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    transform: translateY();
+    flex-direction: column;
+    color: rgb(207, 38, 179);
+    
+
+}
+form{
+
+    margin: auto;
+
+}
+label{
+
+    display: inline-block;
+    padding: 1px;
+    font-size: 13px;
+    display: flex;
+    margin:auto;
+
+}
+
+.container img{
+
+    height: 150px;
+    margin: auto;
+    margin-top: 0;
+    
+
+    
+}
+.welcome{
+    margin: auto;
+}
+
+.container h5{
+
+    display: flex;
+    margin: auto;
+    
+
+}
+
+input{
+
+    padding: 5px;
+    margin: auto;
+    
+}
+
+button{
+
+    color: aliceblue;
+    background-color: rgb(13, 204, 23);
+    font-size: 15px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin: auto;
+
+}
